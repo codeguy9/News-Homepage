@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style: none;
+}
+
+main {
+  width: 60vw;
+  margin: auto;
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main header {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+main header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header nav .brand-logo {
+  color: #00001a;
+  font-size: 5rem;
+}
+
+main header nav li {
+  display: inline-block;
+  padding-right: 3rem;
+  font-size: 17px;
+}
+
+main header nav li a {
+  color: #5d5f79;
+}
+
+main header nav li a:hover {
+  color: #e9ab53;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem;
+}
+
+main section .left-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+}
+
+main section .left-part img {
+  width: 100%;
+}
+
+main section .left-part .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section .left-part .down h1 {
+  font-size: 4.5rem;
+  width: 50%;
+}
+
+main section .left-part .down article {
+  width: 40%;
+  padding-top: 66px;
+  line-height: 1.8;
+}
+
+main section .left-part .down article a {
+  background: #f15e50;
+  padding: 15px 45px;
+  color: #fffdfa;
+  letter-spacing: 3px;
+}
+
+main section .left-part .down article a:hover {
+  background: #00001a;
+}
+
+main section .left-part .down article p {
+  padding-bottom: 2rem;
+  color: #5d5f79;
+  font-size: 17px;
+}
+
+main section aside {
+  padding: 1.8rem;
+  background: #00001a;
+}
+
+main section aside .up h1 {
+  font-size: 3rem;
+  color: #e9ab53;
+}
+
+main section aside .up h2 a {
+  color: #fffdfa;
+}
+
+main section aside .up h2 a:hover {
+  color: #e9ab53;
+}
+
+main section aside .up p {
+  color: #c5c6ce;
+}
+
+main section aside .up hr {
+  margin: 3rem 0;
+}
+
+main section aside .middle h2 a {
+  color: #fffdfa;
+}
+
+main section aside .middle h2 a:hover {
+  color: #e9ab53;
+}
+
+main section aside .middle p {
+  color: #c5c6ce;
+}
+
+main section aside .middle hr {
+  margin: 3rem 0;
+}
+
+main section aside .aside-down h2 a {
+  color: #fffdfa;
+}
+
+main section aside .aside-down h2 a:hover {
+  color: #e9ab53;
+}
+
+main section aside .aside-down p {
+  color: #c5c6ce;
+}
+
+main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem 0;
+}
+
+main footer article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+main footer article img {
+  width: 130px;
+}
+
+main footer article span {
+  color: #c5c6ce;
+  font-size: 3rem;
+}
+
+main footer article p {
+  color: #5d5f79;
+  line-height: 1.7;
+}
+
+.attribution {
+  font-size: 18px;
+  padding: 2rem 0;
+}
+
+/*   Mobile    */
+@media screen and (max-width: 1600px) {
+  section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .left-part .down {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .left-part .down h1 {
+    min-width: 100%;
+    font-size: 2rem;
+  }
+  section .left-part .down article {
+    min-width: 100%;
+  }
+  section .left-part .down article a {
+    padding: 8px 30px;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer article img {
+    min-width: 60px;
+  }
+}
+/*# sourceMappingURL=mystyle.css.map */
